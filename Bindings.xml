@@ -1,0 +1,8 @@
+<Bindings>
+	<Binding name="copymouse" header="CopyThat">
+		CopyThat:ScrapeMouseoverFrame()
+	</Binding>
+	<Binding name="copytooltip" header="CopyThat">
+		CopyThat:ScrapeGameTooltip()
+	</Binding>
+</Bindings>
