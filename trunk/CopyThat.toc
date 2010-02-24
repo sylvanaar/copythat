@@ -1,4 +1,4 @@
-﻿## Interface: 20400
+﻿## Interface: 30300
 ## Title: CopyThat!
 ## Author: Sylvanaar
 ## Notes: Copy text from anything ChatFrames, Questlogs, Menus, Whatever
