@@ -1,4 +1,4 @@
-﻿
+
 CopyThat = {}
 
 CopyThat.lines = {}
@@ -70,7 +70,7 @@ function CopyThat:ScrapeFrame(frame)
 
 end
 
-function CopyThat:OnTextChanged()
+function CopyThat:OnTextChanged(this)
     if this:GetText() ~= self.str then
         this:SetText(self.str)
     end

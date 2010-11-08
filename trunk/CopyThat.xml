@@ -47,10 +47,10 @@
             </Size>
             <Scripts>
               <OnTextChanged>
-							CopyThat:OnTextChanged()
+							CopyThat:OnTextChanged(self)
 						</OnTextChanged>
               <OnEscapePressed>
-							CopyThat:Hide()
+							CopyThat:Hide(self)
 						</OnEscapePressed>
             </Scripts>
             <FontString inherits="ChatFontNormal"/>
